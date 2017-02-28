@@ -1,7 +1,7 @@
 var excelcolumn = require('../index');
 var expect  = require('chai').expect;
 
-describe('excel-range', function(done) {
+describe('excel-column', function(done) {
 	it('should return function', function(done) {
     	expect(excelcolumn).to.be.a('function');
     	done();
