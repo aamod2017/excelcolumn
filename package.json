@@ -1,0 +1,28 @@
+{
+  "name": "excelcolumn",
+  "description": "Get excel sheet horizontal range from values length",
+  "version": "0.0.1",
+  "author": "Aamod Tiwari <nodeprogect2017@gmail.com>",
+  "dependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aamod2017/excelcolumn.git"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "keywords": [
+    "excel column",
+    "excel",
+    "sheet",
+    "sheet column",
+    "range"
+  ],
+  "main" : "./index.js",
+  "devDependencies": {
+    "chai": "^1.10.0"
+  },
+  "scripts": {
+    "test": "mocha ./tests/*"
+  }
+}
